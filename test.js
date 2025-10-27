@@ -1,8 +1,8 @@
-function greeting(message) {
-  return `Hello ${message}`;
-}
+str = "hello";
+str2 = "world";
 
-console.log(greeting("world"));
+console.log(str + " " + str2);
+
 /*
-This is a comment
+The plus operator behaves differently based on context and variables
 */
