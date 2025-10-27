@@ -3,3 +3,6 @@ function greeting(message) {
 }
 
 console.log(greeting("world"));
+/*
+This is a comment
+*/
