@@ -1,8 +1,6 @@
-str = "hello";
-str2 = "world";
+function capitaliseFirstLetter(string) {
+  return string[0].toUpperCase() + string.substring(1).toLowerCase();
+}
 
-console.log(str + " " + str2);
-
-/*
-The plus operator behaves differently based on context and variables
-*/
+console.log(capitaliseFirstLetter("heLlo"));
+console.log(capitaliseFirstLetter("aLLeX"));
