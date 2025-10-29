@@ -4,3 +4,5 @@ function capitaliseFirstLetter(string) {
 
 console.log(capitaliseFirstLetter("heLlo"));
 console.log(capitaliseFirstLetter("aLLeX"));
+
+/*This is a comment */
